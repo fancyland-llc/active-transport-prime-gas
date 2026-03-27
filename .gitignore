@@ -28,9 +28,18 @@ desktop.ini
 # Matplotlib output
 *.png
 *.pdf
+# Allow the manuscript PDF
+!paper/*.pdf
 
 # Large data files
 *.npy
 *.npz
 *.h5
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.bak
 *.hdf5
